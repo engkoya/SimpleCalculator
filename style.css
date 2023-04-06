@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.930),rgba(0, 0, 0, 0.930)),url(./images/calculator.png);
+   
+}
+.wrapper{
+    width: 330px;
+    height: 460px;
+    margin: 65px auto;
+    background-color: #fff;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0);
+    border-radius: 15px;
+
+    
+}
+.container h1{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+#display{
+    border: none;
+    outline: none;
+    width: 330px;
+    height: 80px;
+    color: #5e5858;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: right;
+    background-color: tomato;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.buttons-box{
+    margin: 35px 15px;
+
+}
+.buttons-box .btn{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 800;
+    background: #e9e0e0;
+    color: #5e5858;
+}
+.buttons-box .btn:hover{
+    background: rgba(0,0,0, 0.1);
+}
+.buttons-box .btn.cbtn,.cbtn:hover{
+    background-color: red;
+    color: #fff;
+}
+.buttons-box .btn.mbtn,.mbtn:hover{
+    background-color: rgb(243, 71, 41);
+    color: #fff;
+}
+.container h2{
+    padding-top: -190%;
+    text-align: center;
+    color: #fff;
+}
+span{
+    color: rgb(237, 65, 35);
+}
